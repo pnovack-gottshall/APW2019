@@ -257,12 +257,16 @@ print("Hello world!")
 ## Pablo S. Milla Carmona --------------------------------------------------
 
 #hi all sdfksnlglslfvdmg
-#fdgd
+#fdgdl
+#aef
 
 ## Selina Robson -----------------------------------------------------------
 #Testing
 
 ## Anwesha (Mimi) Saha -----------------------------------------------------
+
+x <- 2+2
+x
 
 
 ## Jaime Andres Villafaña Navea --------------------------------------------
@@ -286,8 +290,15 @@ north.arrow(xb=-92, yb=-43, len=1, lab="N", col="grey85")
 ## Tom Womack --------------------------------------------------------------
 #Beepr symphony
 require(beepr)
-reps <- 1:10000000
+reps <- 1:20
 lapply(reps, function(x) beep(x))
+
+#Computational horror
+require(beepr)
+reps <- 1:100
+lapply(reps, function(x) beep(9))
+
+
 
 ## Michelle Zill -----------------------------------------------------------
 #Good Morning APW! 
