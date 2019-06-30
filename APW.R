@@ -214,9 +214,9 @@ mtcarplot <- mtcars %>%
   theme_bw()
 mtcarplot
 
-#chaos
+#chaos - adapted from Tom
 require(beepr)
-reps <- rep(10:5,1000)
+reps <- rep(10:5,100)
 lapply(reps, function(x) beep(x))
 
 ## Emma Dunne --------------------------------------------------------------
