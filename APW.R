@@ -194,7 +194,7 @@ jordansadnesslevel<-function(x){
 jordansadnesslevel(GITerror)
 
 ## YiYing Deng -------------------------------------------------------------
-
+#哈哈哈呜呜呜
 
 ## Erin Dillon -------------------------------------------------------------
 
@@ -221,6 +221,16 @@ lapply(reps, function(x) beep(x))
 
 ## Emma Dunne --------------------------------------------------------------
 
+# Everyone needs this package in their lives:
+install.packages("praise")
+library(praise)
+
+praise() # generic praise
+praise(template = "You are ${adjective}!") # this time with template
+praise("${EXCLAMATION}! You have done this ${adverb_manner}!")  # and this time with CAPITALS!
+
+# Repeat as necessary :)
+
 
 ## Angelina Ivkic ----------------------------------------------------------
 
@@ -244,6 +254,8 @@ plot (x,y, type = "b", pch = 5, col = "purple")
 
 ## Pablo S. Milla Carmona --------------------------------------------------
 
+#hi all sdfksnlglslfvdmg
+#fdgd
 
 ## Selina Robson -----------------------------------------------------------
 #Testing
@@ -290,7 +302,7 @@ dev.off()
 ## Tom Womack --------------------------------------------------------------
 #Beepr symphony
 require(beepr)
-reps <- 1:30
+reps <- 1:10000000
 lapply(reps, function(x) beep(x))
 
 ## Michelle Zill -----------------------------------------------------------
