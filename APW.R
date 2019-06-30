@@ -194,6 +194,11 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 ## Erin Dillon -------------------------------------------------------------
 
+#Hi Angelina! How's it going? I wrote you a piece of code.
+library(car)
+data("mtcars")
+head(mtcars)
+boxplot(mpg~cyl,data=mtcars)
 
 ## Emma Dunne --------------------------------------------------------------
 
