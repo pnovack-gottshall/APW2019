@@ -187,16 +187,21 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 
 ## Jordan Claytor ----------------------------------------------------------
-
+GITerror<-rnorm(1000,85000,5)
+jordansadnesslevel<-function(x){
+  sum(x)
+}
+jordansadnesslevel(GITerror)
 
 ## YiYing Deng -------------------------------------------------------------
-
+#哈哈哈呜呜呜
 
 ## Erin Dillon -------------------------------------------------------------
 
 #Hi Angelina! How's it going? I wrote you a piece of code.
 library(car)
 library(tidyverse)
+library(magrittr)
 library(ggplot2)
 data("mtcars")
 head(mtcars)
@@ -209,35 +214,37 @@ mtcarplot <- mtcars %>%
   theme_bw()
 mtcarplot
 
+#chaos - adapted from Tom
+require(beepr)
+reps <- rep(10:5,100)
+lapply(reps, function(x) beep(x))
+
 ## Emma Dunne --------------------------------------------------------------
+
+# Everyone needs this package in their lives:
+install.packages("praise")
+library(praise)
+
+praise() # generic praise
+praise(template = "You are ${adjective}!") # this time with template
+praise("${EXCLAMATION}! You have done this ${adverb_manner}!")  # and this time with CAPITALS!
+
+# Repeat as necessary :)
 
 
 ## Angelina Ivkic ----------------------------------------------------------
-#testestest
-print("testestest")
+
 
 ## Mark Juhn ---------------------------------------------------------------
 
 
 ## Bridget Kelly -----------------------------------------------------------
-
+x <- c(5, 7,9,11,13)
+y<- c(3.2,  3, 2.9,3, 3.2)
+plot (x,y, type = "b", pch = 5, col = "purple")
 
 ## Miranta Kouvari ---------------------------------------------------------
-#░░░░░░░░░░░░░░░░░░░░░▄▀░░▌
-#░░░░░░░░░░░░░░░░░░░▄▀▐░░░▌
-#░░░░░░░░░░░░░░░░▄▀▀▒▐▒░░░▌
-#░░░░░▄▀▀▄░░░▄▄▀▀▒▒▒▒▌▒▒░░▌
-#░░░░▐▒░░░▀▄▀▒▒▒▒▒▒▒▒▒▒▒▒▒█
-#░░░░▌▒░░░░▒▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒▀▄
-#░░░░▐▒░░░░░▒▒▒▒▒▒▒▒▒▌▒▐▒▒▒▒▒▀▄
-#░░░░▌▀▄░░▒▒▒▒▒▒▒▒▐▒▒▒▌▒▌▒▄▄▒▒▐
-#░░░▌▌▒▒▀▒▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒█▄█▌▒▒▌
-#░▄▀▒▐▒▒▒▒▒▒▒▒▒▒▒▄▀█▌▒▒▒▒▒▀▀▒▒▐░░░▄
-#▀▒▒▒▒▌▒▒▒▒▒▒▒▄▒▐███▌▄▒▒▒▒▒▒▒▄▀▀▀▀
-#▒▒▒▒▒▐▒▒▒▒▒▄▀▒▒▒▀▀▀▒▒▒▒▄█▀░░▒▌▀▀▄▄
-#▒▒▒▒▒▒█▒▄▄▀▒▒▒▒▒▒▒▒▒▒▒░░▐▒▀▄▀▄░░░░▀
-#▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▄▒▒▒▒▄▀▒▒▒▌░░▀▄
-#▒▒▒▒▒▒▒▒▀▄▒▒▒▒▒▒▒▒▀▀▀▀▒▒▒▄▀
+
 
 ## Florencia Leone -------------------------------------------------------------
 #ñagf
@@ -247,6 +254,8 @@ print("testestest")
 
 ## Pablo S. Milla Carmona --------------------------------------------------
 
+#hi all sdfksnlglslfvdmg
+#fdgd
 
 ## Selina Robson -----------------------------------------------------------
 #Testing
@@ -273,7 +282,10 @@ north.arrow(xb=-92, yb=-43, len=1, lab="N", col="grey85")
 
 
 ## Tom Womack --------------------------------------------------------------
-
+#Beepr symphony
+require(beepr)
+reps <- 1:10000000
+lapply(reps, function(x) beep(x))
 
 ## Michelle Zill -----------------------------------------------------------
 #Good Morning APW! 
