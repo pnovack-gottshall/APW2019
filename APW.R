@@ -266,9 +266,6 @@ plot (x,y, type = "b", pch = 5, col = "purple")
 ## Jaime Andres Villafaña Navea --------------------------------------------
 
 library(mapdata)
-library(maps)
-library(GISTools) 
-library(maptools)
 rm(list = ls())
 
 #South America.dasdsa
