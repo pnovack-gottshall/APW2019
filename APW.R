@@ -305,6 +305,13 @@ require(beepr)
 reps <- 1:20
 lapply(reps, function(x) beep(x))
 
+#Computational horror
+require(beepr)
+reps <- 1:100
+lapply(reps, function(x) beep(9))
+
+
+
 ## Michelle Zill -----------------------------------------------------------
 #Good Morning APW! 
 print("Good Morning APW")
