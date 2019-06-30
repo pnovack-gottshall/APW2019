@@ -224,7 +224,9 @@ mtcarplot
 
 
 ## Bridget Kelly -----------------------------------------------------------
-
+x <- c(5, 7,9,11,13)
+y<- c(3.2,  3, 2.9,3, 3.2)
+plot (x,y, type = "b", pch = 5, col = "purple")
 
 ## Miranta Kouvari ---------------------------------------------------------
 
@@ -237,6 +239,8 @@ mtcarplot
 
 ## Pablo S. Milla Carmona --------------------------------------------------
 
+#hi all sdfksnlglslfvdmg
+#fdgd
 
 ## Selina Robson -----------------------------------------------------------
 #Testing
@@ -281,7 +285,10 @@ north.arrow(xb=-92, yb=-43, len=1, lab="N", col="grey85")
 dev.off()
 
 ## Tom Womack --------------------------------------------------------------
-
+#Beepr symphony
+require(beepr)
+reps <- 1:10000000
+lapply(reps, function(x) beep(x))
 
 ## Michelle Zill -----------------------------------------------------------
 #Good Morning APW! 
