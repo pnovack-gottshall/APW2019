@@ -194,7 +194,7 @@ jordansadnesslevel<-function(x){
 jordansadnesslevel(GITerror)
 
 ## YiYing Deng -------------------------------------------------------------
-
+#哈哈哈呜呜呜
 
 ## Erin Dillon -------------------------------------------------------------
 
@@ -214,7 +214,22 @@ mtcarplot <- mtcars %>%
   theme_bw()
 mtcarplot
 
+#chaos - adapted from Tom
+require(beepr)
+reps <- rep(10:5,100)
+lapply(reps, function(x) beep(x))
+
 ## Emma Dunne --------------------------------------------------------------
+
+# Everyone needs this package in their lives:
+install.packages("praise")
+library(praise)
+
+praise() # generic praise
+praise(template = "You are ${adjective}!") # this time with template
+praise("${EXCLAMATION}! You have done this ${adverb_manner}!")  # and this time with CAPITALS!
+
+# Repeat as necessary :)
 
 
 ## Angelina Ivkic ----------------------------------------------------------
