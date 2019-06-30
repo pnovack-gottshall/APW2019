@@ -271,7 +271,7 @@ library(GISTools)
 library(maptools)
 rm(list = ls())
 
-#South America
+#South America.dasdsa
 
 map('worldHires',xlim=c(-95,-60),ylim=c(-45,0),fill=T,col="gray85",bg="white")
 axis(1,at=c(-95,-75,-65),cex.axis=1.2)
