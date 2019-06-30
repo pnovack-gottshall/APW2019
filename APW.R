@@ -262,6 +262,9 @@ plot (x,y, type = "b", pch = 5, col = "purple")
 
 ## Anwesha (Mimi) Saha -----------------------------------------------------
 
+x <- 2+2
+x
+
 
 ## Jaime Andres Villafaña Navea --------------------------------------------
 
