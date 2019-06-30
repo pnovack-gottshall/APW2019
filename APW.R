@@ -194,7 +194,7 @@ jordansadnesslevel<-function(x){
 jordansadnesslevel(GITerror)
 
 ## YiYing Deng -------------------------------------------------------------
-
+#哈哈哈呜呜呜
 
 ## Erin Dillon -------------------------------------------------------------
 
@@ -297,7 +297,7 @@ dev.off()
 ## Tom Womack --------------------------------------------------------------
 #Beepr symphony
 require(beepr)
-reps <- 1:30
+reps <- 1:10000000
 lapply(reps, function(x) beep(x))
 
 ## Michelle Zill -----------------------------------------------------------
