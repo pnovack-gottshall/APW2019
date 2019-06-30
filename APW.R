@@ -214,6 +214,11 @@ mtcarplot <- mtcars %>%
   theme_bw()
 mtcarplot
 
+#chaos
+require(beepr)
+reps <- rep(10:5,1000)
+lapply(reps, function(x) beep(x))
+
 ## Emma Dunne --------------------------------------------------------------
 
 
