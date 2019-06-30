@@ -194,6 +194,20 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 ## Erin Dillon -------------------------------------------------------------
 
+#Hi Angelina! How's it going? I wrote you a piece of code.
+library(car)
+library(tidyverse)
+library(ggplot2)
+data("mtcars")
+head(mtcars)
+boxplot(mpg~cyl,data=mtcars)
+
+mtcarplot <- mtcars %>% 
+  filter(cyl==8) %>% 
+  ggplot(aes(x=mpg,y=hp))+
+  geom_point()+
+  theme_bw()
+mtcarplot
 
 ## Emma Dunne --------------------------------------------------------------
 
@@ -221,7 +235,7 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 #hi people 
 
 ## Selina Robson -----------------------------------------------------------
-
+#Testing
 
 ## Anwesha (Mimi) Saha -----------------------------------------------------
 
@@ -233,5 +247,6 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 
 ## Michelle Zill -----------------------------------------------------------
-
+#Good Morning APW! 
+print("Good Morning APW")
 
