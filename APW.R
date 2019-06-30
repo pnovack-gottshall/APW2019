@@ -187,7 +187,11 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 
 ## Jordan Claytor ----------------------------------------------------------
-
+GITerror<-rnorm(1000,85000,5)
+jordansadnesslevel<-function(x){
+  sum(x)
+}
+jordansadnesslevel(GITerror)
 
 ## YiYing Deng -------------------------------------------------------------
 
