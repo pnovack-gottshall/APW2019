@@ -187,13 +187,32 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 
 ## Jordan Claytor ----------------------------------------------------------
-
+GITerror<-rnorm(1000,85000,5)
+jordansadnesslevel<-function(x){
+  sum(x)
+}
+jordansadnesslevel(GITerror)
 
 ## YiYing Deng -------------------------------------------------------------
 
 
 ## Erin Dillon -------------------------------------------------------------
 
+#Hi Angelina! How's it going? I wrote you a piece of code.
+library(car)
+library(tidyverse)
+library(magrittr)
+library(ggplot2)
+data("mtcars")
+head(mtcars)
+boxplot(mpg~cyl,data=mtcars)
+
+mtcarplot <- mtcars %>% 
+  filter(cyl==8) %>% 
+  ggplot(aes(x=mpg,y=hp))+
+  geom_point()+
+  theme_bw()
+mtcarplot
 
 ## Emma Dunne --------------------------------------------------------------
 
@@ -213,7 +232,7 @@ plot (x,y, type = "b", pch = 5, col = "purple")
 
 
 ## Florencia Leone -------------------------------------------------------------
-
+#ñagf
 
 ## Ekaterina Larina --------------------------------------------------------
 
@@ -222,17 +241,51 @@ plot (x,y, type = "b", pch = 5, col = "purple")
 
 
 ## Selina Robson -----------------------------------------------------------
-
+#Testing
 
 ## Anwesha (Mimi) Saha -----------------------------------------------------
 
 
 ## Jaime Andres Villafaña Navea --------------------------------------------
 
+library(mapdata)
+library(maps)
+library(GISTools) 
+library(maptools)
+rm(list = ls())
+map=read.table("Aetomylaeus.txt",T) ## read file
+
+#South America
+pdf("Aetomylaeus2.pdf",width=8.5,height=11)
+par(oma=c(7,4,7,4))
+map('worldHires',xlim=c(-95,-60),ylim=c(-45,0),fill=T,col="gray85",bg="white")
+axis(1,at=c(-95,-75,-65),cex.axis=1.2)
+axis(2,at=c(-45,-35,-15,0),las=1,cex.axis=1.2)
+title(xlab="Longitude (Â°W)",ylab="Latitude (Â°S)",cex.lab=1.5)
+box()
+points(map$Lon,map$Lat,col="black",pch=21,bg="grey25",lwd=0.6)##insertar puntos en el mapa
+text(-78,-14.5,"Pisco",cex=NULL)
+text(-74,-15,"1",cex=0.8,font=1)
+text(-74,-27,"Caldera",cex=NULL)
+text(-69.7,-26.5,"2,3",cex=0.8,font=1)
+text(-69.8,-27.5,"4,5",cex=0.8,font=1)
+text(-75,-30,"Coquimbo",cex=NULL)
+text(-70.7,-29,"6",cex=0.8,font=1)
+text(-77,-42,"Chiloe",cex=NULL)
+text(-73.3,-41,"7",cex=0.8,font=1)
+
+text(-74,-11,"Peru",cex=0.7, col="grey50")
+text(-64.5,-33,"Argentina",cex=0.7, col="grey50")
+text(-64.5,-16,"Bolivia",cex=0.7, col="grey50")
+text(-63,-5,"Brazil",cex=0.7, col="grey50")
+text(-71.2,-34.5,"Chile",cex=0.8, col="grey50",srt=90)
+north.arrow(xb=-92, yb=-43, len=1, lab="N", col="grey85") 
+dev.off()
 
 ## Tom Womack --------------------------------------------------------------
 
 
 ## Michelle Zill -----------------------------------------------------------
-
+#Good Morning APW! 
+print("Good Morning APW")
 
