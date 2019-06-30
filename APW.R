@@ -196,9 +196,18 @@ rbind(x[1000, ], output[1000, ], output2[1000, ])
 
 #Hi Angelina! How's it going? I wrote you a piece of code.
 library(car)
+library(tidyverse)
+library(ggplot2)
 data("mtcars")
 head(mtcars)
 boxplot(mpg~cyl,data=mtcars)
+
+mtcarplot <- mtcars %>% 
+  filter(cyl==8) %>% 
+  ggplot(aes(x=mpg,y=hp))+
+  geom_point()+
+  theme_bw()
+mtcarplot
 
 ## Emma Dunne --------------------------------------------------------------
 
