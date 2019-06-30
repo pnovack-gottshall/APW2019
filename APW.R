@@ -216,6 +216,16 @@ mtcarplot
 
 ## Emma Dunne --------------------------------------------------------------
 
+# Everyone needs this package in their lives:
+install.packages("praise")
+library(praise)
+
+praise() # generic praise
+praise(template = "You are ${adjective}!") # this time with template
+praise("${EXCLAMATION}! You have done this ${adverb_manner}!")  # and this time with CAPITALS!
+
+# Repeat as necessary :)
+
 
 ## Angelina Ivkic ----------------------------------------------------------
 
