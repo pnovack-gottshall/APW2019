@@ -286,6 +286,7 @@ x
 ## Jaime Andres Villafaña Navea --------------------------------------------
 
 library(mapdata)
+library(maps)
 rm(list = ls())
 
 #South America.dasdsa
@@ -295,7 +296,7 @@ axis(1,at=c(-95,-75,-65),cex.axis=1.2)
 axis(2,at=c(-45,-35,-15,0),las=1,cex.axis=1.2)
 title(xlab="Longitude (Â°W)",ylab="Latitude (Â°S)",cex.lab=1.5)
 box()
-north.arrow(xb=-92, yb=-43, len=1, lab="N", col="grey85") 
+
 
 
 ## Tom Womack --------------------------------------------------------------
