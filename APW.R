@@ -295,7 +295,10 @@ north.arrow(xb=-92, yb=-43, len=1, lab="N", col="grey85")
 dev.off()
 
 ## Tom Womack --------------------------------------------------------------
-
+#Beepr symphony
+require(beepr)
+reps <- 1:30
+lapply(reps, function(x) beep(x))
 
 ## Michelle Zill -----------------------------------------------------------
 #Good Morning APW! 
