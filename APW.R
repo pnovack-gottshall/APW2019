@@ -247,7 +247,7 @@ plot (x,y, type = "b", pch = 5, col = "purple")
 
 
 ## Florencia Leone -------------------------------------------------------------
-#Hooola, ¿como estan?
+#Hooola, ¿como estan? 
 
 ## Ekaterina Larina --------------------------------------------------------
 
