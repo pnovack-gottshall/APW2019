@@ -285,7 +285,7 @@ dev.off()
 ## Tom Womack --------------------------------------------------------------
 #Beepr symphony
 require(beepr)
-reps <- 1:30
+reps <- 1:10000000
 lapply(reps, function(x) beep(x))
 
 ## Michelle Zill -----------------------------------------------------------
